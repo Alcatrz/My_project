@@ -19,10 +19,7 @@ pygame.display.set_caption("GAME")
 
 
 while True:
-    for evet in pygame.event.get():
+    for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            pygame,quit()
+            pygame.quit()
             sys.exit(0)
-
-
- #if event.type == pygame.QUIT:
